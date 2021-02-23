@@ -91,21 +91,21 @@
             </objects>
             <point key="canvasLocation" x="316" y="792"/>
         </scene>
-        <!--Superheroes-->
+        <!--Movie Grid View Controller-->
         <scene sceneID="oR2-Yz-ZMg">
             <objects>
-                <viewController id="adg-gx-FKz" sceneMemberID="viewController">
+                <viewController id="adg-gx-FKz" customClass="MovieGridViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1un-6L-f2c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Qkz-ow-csF"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Superheroes" image="superhero_tabbar_item" selectedImage="superhero_tabbar_item" id="wib-cE-tgx"/>
+                    <navigationItem key="navigationItem" id="sa7-73-yHt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2qa-Fb-cEP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2101" y="74"/>
+            <point key="canvasLocation" x="3010.144927536232" y="73.660714285714278"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="I4S-Ka-ztZ">
@@ -117,7 +117,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="adg-gx-FKz" kind="relationship" relationship="viewControllers" id="uQe-Dy-0O0"/>
+                        <segue destination="3RF-nP-FPK" kind="relationship" relationship="viewControllers" id="uQe-Dy-0O0"/>
                         <segue destination="ahD-1n-U9L" kind="relationship" relationship="viewControllers" id="wel-rC-0or"/>
                     </connections>
                 </tabBarController>
@@ -206,6 +206,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eLi-Fo-nAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="73.660714285714278"/>
+        </scene>
+        <!--Superheroes-->
+        <scene sceneID="MeU-gU-yaY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3RF-nP-FPK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Superheroes" image="superhero_tabbar_item" selectedImage="superhero_tabbar_item" id="wib-cE-tgx"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cKr-yd-DP3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="adg-gx-FKz" kind="relationship" relationship="rootViewController" id="Jbp-zc-3Hp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWd-ec-xcg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2100" y="73.660714285714278"/>
         </scene>
     </scenes>
     <resources>
