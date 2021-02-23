@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Movie View Controller-->
+        <!--Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MovieViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
@@ -68,7 +68,7 @@
                                             <outlet property="posterView" destination="YJl-U0-bto" id="r7I-6u-XJQ"/>
                                             <outlet property="synopsisLabel" destination="MdI-Ak-OU1" id="avf-Em-VRF"/>
                                             <outlet property="titleLabel" destination="HgK-0M-H1n" id="8Qn-Ji-zAl"/>
-                                            <segue destination="2Mt-pY-wl2" kind="show" id="1a8-aa-Mhk"/>
+                                            <segue destination="2Mt-pY-wl2" kind="show" id="3Yw-R1-hy9"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -83,7 +83,7 @@
                             <constraint firstItem="NC8-Bt-7zq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xnp-Cn-Gh6"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="iJn-hL-SXH"/>
+                    <navigationItem key="navigationItem" title="Movies" id="VJJ-9F-xsQ"/>
                     <connections>
                         <outlet property="tableView" destination="NC8-Bt-7zq" id="rR7-pf-AO0"/>
                     </connections>
