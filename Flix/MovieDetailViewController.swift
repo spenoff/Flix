@@ -1,5 +1,5 @@
 //
-//  MovieDetailViewCell.swift
+//  MovieDetailViewController.swift
 //  Flix
 //
 //  Created by Spencer Nisonoff on 2/22/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MovieDetailViewCell: UITableViewCell {
+class MovieDetailViewController: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
